@@ -76,6 +76,10 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-seo-tag # Generates SEO tags for your pages
+  - mathjax-rails # Renders math equations using MathJax
+
+
 
 # Exclude these files from your production _site
 exclude:
