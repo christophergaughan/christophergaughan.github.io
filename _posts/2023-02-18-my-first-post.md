@@ -406,5 +406,3 @@ factor as a function of redshift, and one of the Hubble parameters as a
 function of redshift. These plots show how the universe has expanded
 over time and how the expansion rate has changed due to the presence of
 dark energy.
-
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
