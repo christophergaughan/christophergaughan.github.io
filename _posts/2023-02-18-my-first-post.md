@@ -407,4 +407,3 @@ function of redshift. These plots show how the universe has expanded
 over time and how the expansion rate has changed due to the presence of
 dark energy.
 
-{% include_relative _includes/_head-custom.html %}
