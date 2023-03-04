@@ -3,6 +3,7 @@ author:
 - Christopher L. Gaughan, Ph.D.
 date: 2023-02-19
 title: Scary Dark Energy and Einstein's Field Equations
+layout: post
 ---
 
 Today we will discuss: \*The Einstein field equations are a set of
