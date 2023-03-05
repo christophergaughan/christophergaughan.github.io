@@ -1,3 +1,4 @@
+# any file or folder listed here will not be included when you do a git add [.|folder|file]
 _site
 .DS_Store
 .jekyll
@@ -9,3 +10,4 @@ Gemfile.lock
 node_modules
 package.json
 vendor/
+_posts/**/*/*.html
