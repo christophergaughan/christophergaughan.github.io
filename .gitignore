@@ -10,4 +10,4 @@ Gemfile.lock
 node_modules
 package.json
 vendor/
-_posts/**/*/*.html
+_posts/**/*.html
