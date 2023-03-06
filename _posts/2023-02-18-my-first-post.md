@@ -5,8 +5,12 @@ date: 2023-02-19
 title: Scary Dark Energy and Einstein's Field Equations
 layout: post
 ---
+Thought: Why are we discussing Einstein field equations and the various constants that are used 
+in Einsteins work as it relates to Dark Energy? This is a website written by someone who does Machine Learning and Data Analysis???
 
-Today we will discuss: \*The Einstein field equations are a set of
+Today we will discuss:
+
+ \*The Einstein field equations are a set of
 partial differential equations that describe how the curvature of
 spacetime is related to the distribution of matter and energy in the
 universe.
