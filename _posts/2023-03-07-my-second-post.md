@@ -2,13 +2,12 @@
 author:
 - Christopher L. Gaughan, Ph.D.
 date: 2023-03-07
-title: Scary Dark Energy and Einstein's Field Equations
+title: Highlighting different plot styles available  when using Jupyter Notebooks
 layout: post
 ---
 
-# Highlighting different plot styles available  when using Jupyter Notebooks
 
-# Plot in Matplotlib Iris Dataset
+### Plot in Matplotlib Iris Dataset
 
 
 ```python
@@ -77,7 +76,7 @@ plt.show()
 
 
     
-![png](images/2023-02-07_7_0.png)
+![png](/Users/chrisgaughan/Documents/GitHub/ChristopherGaughan.github.io/images/2023-02-07_7_0.png)
     
 
 
