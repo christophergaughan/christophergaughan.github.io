@@ -31,7 +31,7 @@ plt.show()
 
 
     
-![png](images/2023-02-07_3_0.png)
+![png](/images/2023-02-07_3_0.png)
     
 
 
@@ -53,7 +53,7 @@ plt.show()
 
 
     
-![png](images/2023-02-07_5_0.png)
+![png](/images/2023-02-07_5_0.png)
     
 
 
@@ -76,7 +76,7 @@ plt.show()
 
 
     
-![png](/Users/chrisgaughan/Documents/GitHub/ChristopherGaughan.github.io/images/2023-02-07_7_0.png)
+![png](/images/2023-02-07_7_0.png)
     
 
 
@@ -144,7 +144,7 @@ plt.show()
 
 
     
-![png](images/2023-02-07_13_0.png)
+![png](/images/2023-02-07_13_0.png)
     
 
 
