@@ -197,8 +197,9 @@ $$G_{12} = R_{12} - \frac{1}{2} g_{12} R = 8\pi T_{12}$$
 $$G_{13} = R_{13} - \frac{1}{2} g_{13} R = 8\pi T_{13}$$
 $$G_{22} = R_{22} - \frac{1}{2} g_{22} R = 8\pi T_{22}$$
 $$G_{23} = R_{23} - \frac{1}{2} g_{23} R = 8\pi T_{23}$$
-$$G_{33} = R_{33} - \frac{1}{2} g_{33} R = 8\pi T_{33}$$ These equations
-relate the curvature of spacetime, described by the Ricci tensor and
+$$G_{33} = R_{33} - \frac{1}{2} g_{33} R = 8\pi T_{33}$$ 
+
+These equations relate the curvature of spacetime, described by the Ricci tensor and
 scalar curvature, to the distribution of matter and energy in spacetime,
 represented by the stress-energy tensor. Solving the Einstein field
 equations is challenging and requires advanced mathematical techniques
