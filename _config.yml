@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Christopher Gaughan
+name: Christopher Gaughan Ph.D.
 
 # Short bio or description (displayed in the header)
 description: Data Analyst, Computational Molecular Simulations, Machine Learning, Python3
@@ -18,7 +18,7 @@ avatar: /images/Chris_Avatar.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: clgaughan68@gmail.com
+  email: clgaughan@clg68.com
   facebook: https://www.facebook.com/christopher.gaughan
   flickr:
   github: christophergaughan@github.io
