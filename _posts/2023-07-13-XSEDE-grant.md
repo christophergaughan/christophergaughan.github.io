@@ -8,8 +8,8 @@ date: 2023-07-13
   *Exciting Announcement! 🎉*
 
  
-    I am thrilled to announce that I have been awarded a grant from the
-    <strong>XSEDE- National Center for Supercomputing</strong>!
+    We are thrilled to announce that we have been awarded a grant from the
+    XSEDE- National Center for Supercomputing!
  
 
   <img src="/images/XSEDE.png" alt="XSEDE Logo">
@@ -61,11 +61,11 @@ L_{\epsilon}(y_i-f(x_i)) =
 \end{cases}
 $$
 
-Here, $L_{\epsilon}(y_i-f(x_i))$ is the $\epsilon$-insensitive loss function, $w$ is the vector of weights, and $C$ is a parameter that determines the trade-off between the flatness of $f(x)$ and the amount up to which deviations larger than $\epsilon$ are tolerated.
+Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $\epsilon$-insensitive loss function, $$w$$ is the vector of weights, and $$C$$ is a parameter that determines the trade-off between the flatness of $$f(x)$$ and the amount up to which deviations larger than $\epsilon$ are tolerated.
 
-In its simplest linear form, $f(x)$ can be written as $f(x)=wx+b$, where $w$ and $b$ are the weights and bias that we need to find. However, in most cases, the relationship between $x$ and $y$ is non-linear, and we need to map the data to a high-dimensional feature space using a kernel function $\phi(x)$. The function $f(x)$ then becomes $f(x)=w\phi(x)+b$. In this case, the optimization problem can be solved more efficiently in the dual space using the kernel trick, which avoids explicitly calculating the mapping $\phi(x)$.
+In its simplest linear form, $$f(x)$$ can be written as $$f(x)=wx+b$$, where $$w$$ and $$b$$ are the weights and bias that we need to find. However, in most cases, the relationship between $$x$$ and $$y$$ is non-linear, and we need to map the data to a high-dimensional feature space using a kernel function $$\phi(x)$$. The function $$f(x)$$ then becomes $$f(x)=w\phi(x)+b$$. In this case, the optimization problem can be solved more efficiently in the dual space using the kernel trick, which avoids explicitly calculating the mapping $$\phi(x)$$.
 
-Commonly used kernel functions include the linear kernel ($k(x, x') = x \cdot x'$), the polynomial kernel ($k(x, x') = (x \cdot x' + c)^d$), and the Radial Basis Function (RBF) or Gaussian kernel ($k(x, x') = \exp(-\gamma ||x - x'||^2)$), with $d$, $c$, and $\gamma$ being hyperparameters that need to be tuned.
+Commonly used kernel functions include the linear kernel ($$k(x, x') = x \cdot x'$$), the polynomial kernel ($$k(x, x') = (x \cdot x' + c)^d$$), and the Radial Basis Function (RBF) or Gaussian kernel ($$k(x, x') = \exp(-\gamma ||x - x'||^2)$$), with $$d$$, $$c$$, and $\gamma$ being hyperparameters that need to be tuned.
 
 
 For further details or inquiries, please do not hesitate to contact us.
