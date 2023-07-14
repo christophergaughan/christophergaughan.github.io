@@ -61,7 +61,7 @@ L_{\epsilon}(y_i-f(x_i)) =
 \end{cases}
 $$
 
-Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $\epsilon$-insensitive loss function, $$w$$ is the vector of weights, and $$C$$ is a parameter that determines the trade-off between the flatness of $$f(x)$$ and the amount up to which deviations larger than $\epsilon$ are tolerated.
+Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $$\epsilon$$-insensitive loss function, $$w$$ is the vector of weights, and $$C$$ is a parameter that determines the trade-off between the flatness of $$f(x)$$ and the amount up to which deviations larger than $\epsilon$ are tolerated.
 
 In its simplest linear form, $$f(x)$$ can be written as $$f(x)=wx+b$$, where $$w$$ and $$b$$ are the weights and bias that we need to find. However, in most cases, the relationship between $$x$$ and $$y$$ is non-linear, and we need to map the data to a high-dimensional feature space using a kernel function $$\phi(x)$$. The function $$f(x)$$ then becomes $$f(x)=w\phi(x)+b$$. In this case, the optimization problem can be solved more efficiently in the dual space using the kernel trick, which avoids explicitly calculating the mapping $$\phi(x)$$.
 
