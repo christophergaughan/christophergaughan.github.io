@@ -72,10 +72,10 @@ For further details or inquiries, please do not hesitate to contact us.
 
   <img src="/images/rockfish.png" alt="RockFish Cluster Image">
 
-  <!-- More of your content -->
+  
 
-  <p>
+ 
     This project is supported by grant #BIO230096 from the XSEDE National Center for Supercomputing.
-  </p>
-</div>
+ 
+
 
