@@ -18,10 +18,10 @@ date: 2023-07-13
     This grant will enable me to use the powerful
     *RockFish Cluster* at John's Hopkins University for our research.
     The opportunity to harness the capabilities of this supercomputer is both an honor
-    and a boon for the advancement of my work.
+    and a boon for the advancement of our work.
  
     
-    We are thrilled to announce that our innovative project, "Unlocking Antibody-Antigen Interactions: An In Silico Approach to Optimize PD-L1 Immune Checkpoint Inhibitors", has been recognized and funded by NCSI-XSEDE. This pioneering computational biochemistry research focuses on the critical role of Complementarity-Determining Regions (CDRs) in antibody-antigen interactions, specifically targeting the complex interplay with Programmed death-ligand 1 (PD-L1), a key player in cancer immune evasion.
+    We are thrilled to announce that our innovative project, "Unlocking Antibody-Antigen Interactions: An In Silico Approach to Optimize PD-L1 Immune Checkpoint Inhibitors", has been recognized and funded by NCSA-XSEDE. This pioneering computational biochemistry research focuses on the critical role of Complementarity-Determining Regions (CDRs) in antibody-antigen interactions, specifically targeting the complex interplay with Programmed death-ligand 1 (PD-L1), a key player in cancer immune evasion.
 
 Our methodology marries cutting-edge machine learning and molecular dynamics simulations, providing a holistic and comprehensive approach to understand and optimize PD-L1 immune checkpoint inhibitors. We utilize the robust predictive capabilities of deep learning tools, like Rosetta and AlphaFold, to anticipate the 3D structures of antibody-PD-L1 complexes based on sequence data. This allows us to comprehend the structural impacts of modifications in CDRs with unprecedented precision.
 
@@ -66,6 +66,8 @@ Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $$\epsilon$$-insensitive loss function
 In its simplest linear form, $$f(x)$$ can be written as $$f(x)=wx+b$$, where $$w$$ and $$b$$ are the weights and bias that we need to find. However, in most cases, the relationship between $$x$$ and $$y$$ is non-linear, and we need to map the data to a high-dimensional feature space using a kernel function $$\phi(x)$$. The function $$f(x)$$ then becomes $$f(x)=w\phi(x)+b$$. In this case, the optimization problem can be solved more efficiently in the dual space using the kernel trick, which avoids explicitly calculating the mapping $$\phi(x)$$.
 
 Commonly used kernel functions include the linear kernel ($$k(x, x') = x \cdot x'$$), the polynomial kernel ($$k(x, x') = (x \cdot x' + c)^d$$), and the Radial Basis Function (RBF) or Gaussian kernel ($$k(x, x') = \exp(-\gamma ||x - x'||^2)$$), with $$d$$, $$c$$, and $$\gamma$$ being hyperparameters that need to be tuned.
+
+
 
 
 For further details or inquiries, please do not hesitate to contact us.
