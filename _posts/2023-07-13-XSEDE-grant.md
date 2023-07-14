@@ -1,29 +1,25 @@
-::: {#728435b4 .cell .markdown}
+---
+layout: post
+title: NCSI-XSEDE Grant Awarded for in silico Antibody Engineering Computational Research
+date: 2023-07-13
 
-------------------------------------------------------------------------
+---
 
-layout: post title: NCSI-XSEDE Grant Awarded for in silico Antibody
-Engineering Computational Research date: 2023-07-13
+  *Exciting Announcement! 🎉*
 
-------------------------------------------------------------------------
-
-```{=html}
-<div class="announcement">
-  <h1>Exciting Announcement! 🎉</h1>
-
-  <p>
+ 
     I am thrilled to announce that I have been awarded a grant from the
     <strong>XSEDE- National Center for Supercomputing</strong>!
-  </p>
+ 
 
   <img src="/images/XSEDE.png" alt="XSEDE Logo">
 
-  <p>
+  
     This grant will enable me to use the powerful
     <strong>RockFish Cluster at John's Hopkins University</strong> for my research.
     The opportunity to harness the capabilities of this supercomputer is both an honor
     and a boon for the advancement of my work.
-  </p>
+ 
     
     We are thrilled to announce that our innovative project, "Unlocking Antibody-Antigen Interactions: An In Silico Approach to Optimize PD-L1 Immune Checkpoint Inhibitors", has been recognized and funded by NCSI-XSEDE. This pioneering computational biochemistry research focuses on the critical role of Complementarity-Determining Regions (CDRs) in antibody-antigen interactions, specifically targeting the complex interplay with Programmed death-ligand 1 (PD-L1), a key player in cancer immune evasion.
 
@@ -82,5 +78,4 @@ For further details or inquiries, please do not hesitate to contact us.
     This project is supported by grant #BIO230096 from the XSEDE National Center for Supercomputing.
   </p>
 </div>
-```
-:::
+
