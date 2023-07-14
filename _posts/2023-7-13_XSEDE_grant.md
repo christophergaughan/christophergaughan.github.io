@@ -2,13 +2,14 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "606c8114",
+   "id": "df9b00bb",
    "metadata": {},
    "source": [
     "---\n",
     "layout: post\n",
     "title: Exciting Announcement\n",
     "date: 2023-07-13\n",
+    "\n",
     "---\n",
     "\n",
     "<div class=\"announcement\">\n",
