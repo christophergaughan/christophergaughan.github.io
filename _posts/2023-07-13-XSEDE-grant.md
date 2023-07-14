@@ -12,7 +12,7 @@ date: 2023-07-13
     XSEDE- National Center for Supercomputing!
  
 
-  <img src="/images/XSEDE.png" alt="XSEDE Logo">
+  <img src="/images/XSEDE1.png" alt="XSEDE Logo">
 
   
     This grant will enable me to use the powerful
@@ -45,7 +45,7 @@ Training the SVR model involves a careful optimization process, where we tune th
 
 In this way, SVR serves as a crucial bridge in our research, connecting raw data from our simulations with more nuanced, predictive insights that can guide our understanding and optimization of PD-L1 immune checkpoint inhibitors.
     
-    The objective of SVR is to find a function $$f(x)$& that has at most $$\epsilon$$ deviation from the actual training responses $$y_i$& for all the training data, and at the same time, is as flat as possible. This is achieved by minimizing the following cost function:
+    The objective of SVR is to find a function $$f(x)$$ that has at most $$\epsilon$$ deviation from the actual training responses $$y_i$$ for all the training data, and at the same time, is as flat as possible. This is achieved by minimizing the following cost function:
 
 $$
 C\sum_{i=1}^{n}L_{\epsilon}(y_i-f(x_i)) + \frac{1}{2}||w||^2
