@@ -65,7 +65,7 @@ Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $\epsilon$-insensitive loss function, 
 
 In its simplest linear form, $$f(x)$$ can be written as $$f(x)=wx+b$$, where $$w$$ and $$b$$ are the weights and bias that we need to find. However, in most cases, the relationship between $$x$$ and $$y$$ is non-linear, and we need to map the data to a high-dimensional feature space using a kernel function $$\phi(x)$$. The function $$f(x)$$ then becomes $$f(x)=w\phi(x)+b$$. In this case, the optimization problem can be solved more efficiently in the dual space using the kernel trick, which avoids explicitly calculating the mapping $$\phi(x)$$.
 
-Commonly used kernel functions include the linear kernel ($$k(x, x') = x \cdot x'$$), the polynomial kernel ($$k(x, x') = (x \cdot x' + c)^d$$), and the Radial Basis Function (RBF) or Gaussian kernel ($$k(x, x') = \exp(-\gamma ||x - x'||^2)$$), with $$d$$, $$c$$, and &$\gamma$$ being hyperparameters that need to be tuned.
+Commonly used kernel functions include the linear kernel ($$k(x, x') = x \cdot x'$$), the polynomial kernel ($$k(x, x') = (x \cdot x' + c)^d$$), and the Radial Basis Function (RBF) or Gaussian kernel ($$k(x, x') = \exp(-\gamma ||x - x'||^2)$$), with $$d$$, $$c$$, and $$\gamma$$ being hyperparameters that need to be tuned.
 
 
 For further details or inquiries, please do not hesitate to contact us.
