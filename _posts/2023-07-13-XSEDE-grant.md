@@ -45,7 +45,7 @@ Training the SVR model involves a careful optimization process, where we tune th
 
 In this way, SVR serves as a crucial bridge in our research, connecting raw data from our simulations with more nuanced, predictive insights that can guide our understanding and optimization of PD-L1 immune checkpoint inhibitors.
     
-    The objective of SVR is to find a function $f(x)$ that has at most $\epsilon$ deviation from the actual training responses $y_i$ for all the training data, and at the same time, is as flat as possible. This is achieved by minimizing the following cost function:
+    The objective of SVR is to find a function $$f(x)$& that has at most $$\epsilon$$ deviation from the actual training responses $$y_i$& for all the training data, and at the same time, is as flat as possible. This is achieved by minimizing the following cost function:
 
 $$
 C\sum_{i=1}^{n}L_{\epsilon}(y_i-f(x_i)) + \frac{1}{2}||w||^2
@@ -61,7 +61,7 @@ L_{\epsilon}(y_i-f(x_i)) =
 \end{cases}
 $$
 
-Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $$\epsilon$$-insensitive loss function, $$w$$ is the vector of weights, and $$C$$ is a parameter that determines the trade-off between the flatness of $$f(x)$$ and the amount up to which deviations larger than $\epsilon$ are tolerated.
+Here, $$L_{\epsilon}(y_i-f(x_i))$$ is the $$\epsilon$$-insensitive loss function, $$w$$ is the vector of weights, and $$C$$ is a parameter that determines the trade-off between the flatness of $$f(x)$$ and the amount up to which deviations larger than $$\epsilon$$ are tolerated.
 
 In its simplest linear form, $$f(x)$$ can be written as $$f(x)=wx+b$$, where $$w$$ and $$b$$ are the weights and bias that we need to find. However, in most cases, the relationship between $$x$$ and $$y$$ is non-linear, and we need to map the data to a high-dimensional feature space using a kernel function $$\phi(x)$$. The function $$f(x)$$ then becomes $$f(x)=w\phi(x)+b$$. In this case, the optimization problem can be solved more efficiently in the dual space using the kernel trick, which avoids explicitly calculating the mapping $$\phi(x)$$.
 
