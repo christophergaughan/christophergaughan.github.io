@@ -78,6 +78,17 @@ For further details or inquiries, please do not hesitate to contact us.
 
  
     This project is supported by grant #BIO230096 from the XSEDE National Center for Supercomputing.
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6VF1CYBQVL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6VF1CYBQVL');
+</script>
  
 
 
